@@ -55,7 +55,7 @@ const About = () => {
         <img
           src="assets/grid2.png"
           alt="grid-2"
-          className="m-auto transform scale-125 sm:w-[150px] sm:h-[150px] xl:w-[250px] xl:h-[250px] object-cover rotate-45"
+          className="m-auto transform scale-125 sm:w-[150px] sm:h-[150px] xl:w-[250px] xl:h-[250px] object-cover rotate-180"
           style={{
             transform: `rotate(${rotation}deg) scale(1.25)`, // Rotate based on scroll
           }}
