@@ -105,9 +105,9 @@ export const navLinks = [
       deskScale: isSmall ? 5 : isMobile ? 4 : 5.5,
       deskPosition: isMobile ? [0, -6, 0] : [0, -7, -3],
       cubePosition: isSmall ? [20, -12, -6] : isMobile ? [10, -5, 0] : isTablet ? [15, -5, 0] : [15, -5.5, 0],
-      reactLogoPosition: isSmall ? [15, 11, 0] : isMobile ? [15, 4, 0] : isTablet ? [10, 10, 0] : [12, 3, 0],
-      ringPosition: isSmall ? [-10, 7, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 10, 0] : [-24, 10, 0],
-      targetPosition: isSmall ? [-22, -10, -10] : isMobile ? [-9, -11, -10] : isTablet ? [-11, -4, -10] : [-13, -15, -10],
+      reactLogoPosition: isSmall ? [15, 8, 0] : isMobile ? [15, 4, 0] : isTablet ? [10, 10, 0] : [12, 3, 0],
+      ringPosition: isSmall ? [-10, 5, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 10, 0] : [-24, 10, 0],
+      targetPosition: isSmall ? [-15, -20, 5] : isMobile ? [-9, -11, -10] : isTablet ? [-11, -4, -10] : [-13, -15, -10],
     };
   };
   

@@ -22,7 +22,7 @@ const Experience = () => {
                   <Suspense fallback={<CanvasLoader />}>
                   <group scale={1} position={[0, -3, 0]} rotation={[0, -0.1, 0]}>
                   <Wireglobe
-                  position={[0,1,0]}
+                  position={[0,1  ,0]}
                   
                   />
 
