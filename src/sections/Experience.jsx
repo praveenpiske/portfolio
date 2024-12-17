@@ -7,6 +7,7 @@ import { Suspense } from 'react'
 import CanvasLoader from '../components/CanvasLoader'
 import { Center } from '@react-three/drei'
 
+
 const Experience = () => {
   return (
     <section className='c-space my-20' id="work">
@@ -30,8 +31,18 @@ const Experience = () => {
                   </Suspense>
               </Center>
               <OrbitControls maxPolarAngle={Math.PI/2} enableZoom={false}/>
+              
                     </Canvas>
+                    
+                    <div>
+
+                        
+                    </div>
+
                 </div>
+
+                
+
                 <div className='work-content'>
                     <div className='sm:py-10 py-5 sm:px-5 px-2.5'>
                         {workExperiences.map(({id, name,  pos, icon, duration, title,animation},index)=>(

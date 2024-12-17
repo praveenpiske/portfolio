@@ -54,11 +54,14 @@ const Hero = () => {
           </Suspense>
         </Canvas>
       </div>
-      <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
-        <a href="#about" className="w-fit">
-          <Button name="Let's work together" isBean={true} containerClass="sm-w-fit w-full sm:min-w-96" />
-        </a>
-      </div>
+      
+      <div className="mt-10 absolute bottom-7 left-0 right-0 w-full z-10 c-space">
+              <a href="https://drive.google.com/file/d/1bELsZgH4sOhg_r-uifuiwW0eyOqF8u7Y/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="w-full mx-20">
+
+                <Button className="w-full mx-20" name="Check-out Resume" isBean={true} containerClass="sm:w-fit w-full sm:min-w-96 "  />
+</a>
+              </div>
+
     </section>
   );
 };

@@ -3,6 +3,7 @@ import Globe from 'react-globe.gl';
 import Button from '../components/Button.jsx';
 import { useEffect } from 'react';
 
+
 const About = () => {
 
     const [rotation, setRotation] = useState(0);
@@ -39,6 +40,8 @@ const About = () => {
           <div className="grid-container">
             <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
+            
+
             <div className='mt-12'> 
               <p className="grid-headtext">Hi, I'm Praveen</p>
               <p className="grid-subtext">
@@ -55,7 +58,7 @@ const About = () => {
         <img
           src="assets/grid2.png"
           alt="grid-2"
-          className="m-auto transform scale-125 sm:w-[150px] sm:h-[150px] xl:w-[250px] xl:h-[250px] object-cover rotate-180"
+          className="m-auto transform scale-125 sm:w-[150px] sm:h-[150px] xl:w-[250px] xl:h-[250px] object-cover "
           style={{
             transform: `rotate(${rotation}deg) scale(1.25)`, // Rotate based on scroll
           }}
@@ -67,6 +70,7 @@ const About = () => {
             needs.
           </p>
         </div>
+
       </div>
     </div>
 
@@ -91,7 +95,12 @@ const About = () => {
               <p className="grid-subtext">Based in Thane, India, I am flexible with time zones and open to remote opportunities worldwide.</p>
               <div className="mt-4">
                 <Button className="w-full" name="Contact me" isBean={true} containerClass="sm:w-fit w-full sm:min-w-96 "  />
-              </div>
+              </div><br />
+
+              
+            
+              
+
             </div>
           </div>
         </div>
